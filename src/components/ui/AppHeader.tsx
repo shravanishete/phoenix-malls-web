@@ -1,16 +1,15 @@
 
-import { Building2 } from 'lucide-react'
 import { useState } from 'react'
 
 const LOGO_SRC = '/images/logo.png'
 
-const HEADER = [
-  'pointer-events-auto flex w-fit items-center gap-3 md:w-80',
-  'rounded-2xl bg-white/95 px-4 py-2 shadow-lg backdrop-blur',
-].join(' ')
+// const HEADER = [
+//   'pointer-events-auto flex w-fit items-center gap-3 md:w-80',
+//   'rounded-2xl bg-white/95 px-4 py-2 shadow-lg backdrop-blur',
+// ].join(' ')
 
 export default function AppHeader() {
-  const [logoFailed, setLogoFailed] = useState(false)
+  const [, setLogoFailed] = useState(false)
 
   return (
    <header className="pointer-events-auto flex w-fit items-center gap-3 rounded-2xl bg-white/95 px-4 py-2 shadow-lg backdrop-blur md:w-80">
